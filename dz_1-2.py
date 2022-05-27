@@ -8,6 +8,7 @@ for i in range(1, 1000, 2):
 for element in pool_numbers:
     summa_local = 0
     save =element
+    
     while element > 0:
         n = element % 10
         element = element // 10
@@ -33,6 +34,7 @@ pool_numbers = [i+17 for i in pool_numbers]
 for element in pool_numbers:
     summa_local = 0
     save =element
+    
     while element > 0:
         n = element % 10
         element = element // 10
